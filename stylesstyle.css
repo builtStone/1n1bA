@@ -1,0 +1,228 @@
+﻿* {
+	-ms-word-wrap: break-word;
+}
+
+body {
+	background-color: #efe7d0; margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+
+li {
+	margin: 0px; padding: 0px;
+}
+
+ul li {
+	list-style: none;
+}
+.xl li {
+	list-style: none;
+}
+
+
+#deanbottom {
+	background: rgb(70, 0, 0); height: 40px;
+}
+.deannav1 {
+	font-size: 20px; font-weight:bold; height: 40px; color: rgb(255, 255, 255); margin-left: 152px;
+}
+
+.deannav {
+	font-size: 20px; font-weight:bold; text-decoration:none; height: 40px; color: rgb(255, 255, 255); line-height: 40px; overflow: hidden; margin-left: 2px;
+}
+.deannav ul li {
+	float: left;
+}
+.deannav ul li a {
+	padding: 0px 14px; height: 40px; color: rgb(255, 255, 255);text-decoration:none;  line-height: 40px; font-size: 20px; display: block;
+}
+.deannav ul li.a a {
+	background: rgb(190, 92, 9); color: rgb(255, 255, 255);
+}
+.deannav ul li a:hover {
+	background: rgb(190, 92, 9);
+}
+.dean1nav span {
+	display: none;
+}
+
+h1
+{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+.note
+{
+     margin-left: 1em;
+     margin-right: 1em;
+}
+
+.note_back
+{
+    font-weight: bolder;
+}
+
+h2 
+{
+    display: block;
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-family: "微软雅黑";
+}
+
+hr
+{
+ margin:10px 1px 10px 1px; border-top:1px solid #008000;
+}
+
+p
+{
+    font-size: 1.25em; text-indent: 1em; margin-left: 10px; line-height:1.5; margin-right: 10px; text-align: justify;
+}
+
+
+.hhh
+{
+	color: #efe7d0;
+    display: block;
+	font-size: 1em;
+}
+  
+.abreak
+{
+    page-break-after : always;
+}
+
+.bbreak
+{
+    page-break-before : always;
+}
+
+.zjsjchapter
+{
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.chapterbreak 
+{
+    display: block;
+    line-height: 1.2em;
+}
+
+sup 
+{
+    color : red;
+	font-size: 0.7em;
+}
+
+.verse {
+    font-weight: bolder
+}
+
+.o0
+{
+	color : #800000;
+    display: block;
+	font-size: 1.1em;
+	 margin-left: 10px;
+	margin:10px;
+
+}
+
+.o1
+{
+	color : #800000;
+    display: block;
+     margin-left: 10px;
+     margin-right: 10px;
+    margin:10px;
+}
+
+.o2
+{
+	color : #800000;
+    display: block;
+	font-size: 0.9em;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	margin:10px;
+}
+
+.o3
+{
+    color :#800000;
+    display: block;
+	font-size: 0.85em;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	margin:10px;
+}
+
+.o4
+{
+	color : #800000;
+    display: block;
+	font-size: 0.8em;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 margin:10px;
+}
+.o5
+{
+	color : #800000;
+    display: block;
+	font-size: 0.75em;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 margin:10px;
+}
+.o9
+{
+	color : #800000;
+    text-align: center;
+    display: block;
+	font-size: 1.2em;
+    font-weight: bolder;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin:10px;
+}
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 111, 86, 0.8) url(images/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* 如果用户继续向下滚动,这个按钮的透明度会变得更低#e86256 */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
